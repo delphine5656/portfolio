@@ -12,6 +12,10 @@ h1 {
 h2 {
     color: white;
 }
+h3 {
+    color: white;
+    
+}
 
 p{
     color: white;
@@ -35,9 +39,10 @@ nav {
     background: rgb(102,36,131);
     background: linear-gradient(90deg, rgba(102,36,131,1) 0%, rgba(46,98,172,1) 37%, rgba(54,169,225,1) 100%);
     padding: 1%;
-   
     
-}
+    width: 100%;
+    margin-bottom: 3%;
+    }
 .item-navigation {
     display: inline-block;
     width: 150px;
@@ -47,27 +52,72 @@ nav {
 }
 /*-----------------------------------------FIN NAV-----------------------------------------------*/
 
-header {
-   
+.header {
+    display: inline;
+    width: 100vh;
+    margin-bottom: 2%;
 }
-
 .dev {
-    display: inline-block;
     width: 30%;
     position: relative;
     padding: 2%;
-    float: left;
-}
-
-.graphiste {
-    display: inline-block;
-    width: 30%;
-    position: relative;
-    padding: 2%;
-    float: inline-end;
+    left: 20px;
+    display: flex;
     
 }
 
+.graphiste {
+    width: 30%;
+   position: absolute;
+    padding: 2%;
+    top: 160px;
+    right: 5px;
+    margin-bottom: 2%;
+    display: flex;
+    
+    
+    
+
+    
+}
+
+/*-----------------------------------------section compétences-----------------------------------------------*/
+
+li{
+    color: white;
+}
+
+.oridinateur-femme {
+    margin: auto;
+    float: right;
+}
+h3 {
+    border:1px solid white;
+    width: 30%;
+    }
+
+#framework {
+   position: absolute;
+    right: 8%;
+    top: 550px;
+    
+}
+
+/*-----------------------------------------Ce que je sais faire-----------------------------------------------*/
+#make {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icone {
+    width: 150px;
+    height: 150px;
+}
+.boite {
+    border: solid 2px white;
+    margin: auto;
+    padding: 2%;
+}
 /*-----------------------------------------footer-----------------------------------------------*/
 
 footer {
