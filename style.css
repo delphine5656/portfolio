@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    background-image: url(image/photo-profile.svg);
+    background-repeat:no-repeat;
+    background-position: top;
+    
+}
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p{
+    color: white;
+    text-align: justify;
+}
+
+button{
+    background: rgb(102,36,131);
+    background: linear-gradient(90deg, rgba(102,36,131,1) 0%, rgba(46,98,172,1) 37%, rgba(54,169,225,1) 100%);
+    
+}
+
+/*-----------------------------------------HEADER-----------------------------------------------*/
+.profile {
+    display: inline-block;
+    margin: auto;
+}
+
+/*-----------------------------------------nav-----------------------------------------------*/
+nav {
+    background: rgb(102,36,131);
+    background: linear-gradient(90deg, rgba(102,36,131,1) 0%, rgba(46,98,172,1) 37%, rgba(54,169,225,1) 100%);
+    padding: 1%;
+   
+    
+}
+.item-navigation {
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+/*-----------------------------------------FIN NAV-----------------------------------------------*/
+
+header {
+   
+}
+
+.dev {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    padding: 2%;
+    float: left;
+}
+
+.graphiste {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    padding: 2%;
+    float: inline-end;
+    
+}
+
+/*-----------------------------------------footer-----------------------------------------------*/
+
+footer {
+    background: rgb(102,36,131);
+    background: linear-gradient(90deg, rgba(102,36,131,1) 0%, rgba(46,98,172,1) 37%, rgba(54,169,225,1) 100%);
+}
