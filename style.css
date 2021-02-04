@@ -1,4 +1,4 @@
-body {
+html body {
     background-color: black;
     background-image: url(image/photo-profile.svg);
     background-repeat:no-repeat;
@@ -53,6 +53,9 @@ nav {
     line-height: 25px;
     text-align: center;
 }
+a {
+    color: white;
+  }
 /*-----------------------------------------FIN NAV-----------------------------------------------*/
 
 .header {

@@ -1,0 +1,128 @@
+html body {
+    background-color: black;
+    margin: 0;
+}
+p{
+    color: white;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+h3{
+    color: white;
+   text-align: center;
+}
+
+/*-------------------------------------------Nav------------------------------------*/
+.item-navigation {
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+a {
+    color: white;
+  }
+
+  img {
+      height: 30%;
+      width: 60%;
+      display: block;
+      margin: auto;
+  }
+/*-------------------------------------------Définir la grille------------------------------------*/
+.container {
+    display: inline-grid;
+    grid-template-columns:repeat(12, auto) ; /*12 colonnes*/
+    grid-template-rows: 1fr 2fr 2fr 1fr; /* 3 lignes*/
+    gap: 10px;
+    padding: 0%;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    }
+    
+.header {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    background: rgb(102,36,131);
+    background: linear-gradient(90deg, rgba(102,36,131,1) 0%, rgba(46,98,172,1) 37%, rgba(54,169,225,1) 100%);
+    }
+    
+   
+.card1 {
+     grid-column-start: 1;
+     grid-column-end: 3;
+    grid-row-start: 2;
+    padding: 2%;
+    justify-items: center;
+    justify-content: center;
+    }
+    
+.card2 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+     justify-items: center;
+    justify-content: center;
+    }
+
+.card3 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    justify-items: center;
+    justify-content: center;
+    }
+.card4 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    justify-items: center;
+    justify-content: center;
+    }
+.card5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    padding: 2%;
+    justify-items: center;
+    justify-content: center;
+    }
+    
+.card6 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    justify-items: center;
+    justify-content: center;
+    }
+
+.card7 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    justify-items: center;
+    justify-content: center;
+    }
+.card8 {
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    justify-items: center;
+    justify-content: center;
+    }
+    
+
+    
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    background: palegoldenrod;
+    }
