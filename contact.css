@@ -119,11 +119,9 @@ form {
     /* Pour placer le bouton à la même position que les champs texte */
     padding-left: 90px; /* même taille que les étiquettes */
     background: rgb(102,36,131);
+    margin-left: .5em;
     background: linear-gradient(90deg, rgba(102,36,131,1) 0%, rgba(46,98,172,1) 37%, rgba(54,169,225,1) 100%);
+    border-radius: 5px;
   }
   
-  button {
-    /* Cette marge supplémentaire représente grosso modo le même espace que celui
-       entre les étiquettes et les champs texte */
-    margin-left: .5em;
-  }
+ 
