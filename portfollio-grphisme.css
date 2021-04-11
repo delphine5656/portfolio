@@ -54,7 +54,7 @@ a {
     background: linear-gradient(90deg, rgba(102,36,131,1) 0%, rgba(46,98,172,1) 37%, rgba(54,169,225,1) 100%);
     }
     
-   
+  
 .card1 {
      grid-column-start: 1;
      grid-column-end: 3;
@@ -63,6 +63,7 @@ a {
     justify-items: center;
     justify-content: center;
     }
+    
    
 .card2 {
     grid-column-start: 3;
@@ -72,6 +73,8 @@ a {
     justify-content: center;
     }
 
+    
+    
 .card3 {
     grid-column-start: 6;
     grid-column-end: 9;
@@ -126,3 +129,5 @@ a {
     grid-row-start: 4;
     background: palegoldenrod;
     }
+
+    
